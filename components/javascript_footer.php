@@ -21,7 +21,7 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-3">
 				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
+					<h5 class="widgetheading">Nuestro Contacto</h5>
 					<address>
 					<strong>Bootstrap company Inc</strong><br>
 					JC Main Road, Near Silnile tower<br>
@@ -34,19 +34,19 @@
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
+					<h5 class="widgetheading">Enlaces Rápidos</h5>
 					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Últimos acontecimientos</a></li>
+						<li><a href="#">Términos y Condiciones</a></li>
+						<li><a href="#">Política de privacidad</a></li>
+						<li><a href="#">Carrera</a></li>
+						<li><a href="#">Contáctenos</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
+					<h5 class="widgetheading">Últimas Publicaciones</h5>
 					<ul class="link-list">
 						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
+					<h5 class="widgetheading">Noticias Recientes</h5>
 					<ul class="link-list">
 						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>

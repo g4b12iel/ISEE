@@ -18,7 +18,7 @@
 						<div class="row"> 
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h3>Our Best <span class="color">Services</span></h3>
+									<h3>Los mejores <span class="color">Servicios</span></h3>
 									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                                     	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
 								</div>  
@@ -29,7 +29,7 @@
 		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
 		<div class="col-md-3 text-center">
 		<span class="icons c1"><i class="fa fa-book"></i></span> <div class="box-area">
-		<h3>Web Desiging</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+		<h3>Diseño Web</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c2"><i class="fa fa-users"></i></span> <div class="box-area">
@@ -37,11 +37,11 @@
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c3"><i class="fa fa-trophy"></i></span> <div class="box-area">
-		<h3>Quality</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+		<h3>Calidad</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
-		<h3>Mobile App</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+		<h3>Aplicaciones moviles</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
 		</div></div>
 		</div></div>
 		</div> 
@@ -50,7 +50,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-bell-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Awesome Design</h3>
+                    <h3>Impresionante Diseño</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-compress"></i>
                 <div class="info-blocks-in">
-                    <h3>Fully Responsive</h3>
+                    <h3>Completamente Responsivo</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
             </div>
@@ -100,17 +100,17 @@
         <div class="row service-v1 margin-bottom-40">
             <div class="col-md-4 md-margin-bottom-40">
                <img class="img-responsive" src="img/service1.jpg" alt="">   
-                <h3>General Checkup</h3>
+                <h3>Revisión General</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
             </div>
             <div class="col-md-4">
                 <img class="img-responsive" src="img/service2.jpg" alt="">            
-                <h3>Heart Consultant</h3>
+                <h3>Consultor de fiar</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
             </div>
             <div class="col-md-4 md-margin-bottom-40">
               <img class="img-responsive" src="img/service3.jpg" alt="">  
-                <h3>Nutrituion</h3>
+                <h3>Retroalimentación</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
             </div>
         </div>

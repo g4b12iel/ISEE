@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Portfolio</h2>
+				<h2 class="pageTitle">Portafolio</h2>
 			</div>
 		</div>
 	</div>
@@ -32,12 +32,12 @@
 
 			<div class="editContent">
 	            <ul class="filter">
-	                <li class="active"><a href="#" data-filter="*">All</a></li>
-	                <li><a href="#" data-filter=".artwork">Artwork</a></li>
-	                <li><a href="#" data-filter=".creative">Creative</a></li>
-	                <li><a href="#" data-filter=".nature">Nature</a></li>
-	                <li><a href="#" data-filter=".outside">Outside</a></li>
-	                <li><a href="#" data-filter=".photography">Photography</a></li>
+	                <li class="active"><a href="#" data-filter="*">Todos</a></li>
+	                <li><a href="#" data-filter=".artwork">Ilustraciones</a></li>
+	                <li><a href="#" data-filter=".creative">Creativos</a></li>
+	                <li><a href="#" data-filter=".nature">Naturales</a></li>
+	                <li><a href="#" data-filter=".outside">Fuera de foco</a></li>
+	                <li><a href="#" data-filter=".photography">Fotografías</a></li>
 	            </ul>
 			</div>
             <!-- /.gallery-filter -->

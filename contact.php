@@ -29,11 +29,11 @@
 								  	
 		   <!-- Form itself -->
           <form name="sentMessage" id="contactForm"  novalidate>
-	       <h3>Contact me</h3>
+	       <h3>Contáctame</h3>
 		 <div class="control-group">
                     <div class="controls">
 			<input type="text" class="form-control" 
-			   	   placeholder="Full Name" id="name" required
+			   	   placeholder="Nombre Completo" id="name" required
 			           data-validation-required-message="Please enter your name" />
 			  <p class="help-block"></p>
 		   </div>
@@ -49,14 +49,14 @@
                <div class="control-group">
                  <div class="controls">
 				 <textarea rows="10" cols="100" class="form-control" 
-                       placeholder="Message" id="message" required
+                       placeholder="Mensaje" id="message" required
 		       data-validation-required-message="Please enter your message" minlength="5" 
                        data-validation-minlength-message="Min 5 characters" 
                         maxlength="999" style="resize:none"></textarea>
 		</div>
                </div> 		 
 	     <div id="success"> </div> <!-- For success/fail messages -->
-	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+	    <button type="submit" class="btn btn-primary pull-right">Enviar</button><br />
           </form>
 								</div>
 								<div class="col-md-6">

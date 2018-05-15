@@ -23,7 +23,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12"> 	  
-					<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span></p>
+					<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Lun - Sab 8.00 - 18.00. Domingo CERRADO</span></p>
 					<p class="pull-right"><i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
 				</div>
 			</div>
@@ -47,15 +47,15 @@
 						<li class="dropdown">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Quienes somos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="about.php">Company</a></li>
-								<li><a href="about.php">Our Team</a></li>
-								<li><a href="about.php">News</a></li> 
-								<li><a href="about.php">Investors</a></li>
+								<li><a href="about.php">ISE&E S.R.L.</a></li>
+								<li><a href="about.php">Nuestro equipo</a></li>
+								<li><a href="about.php">Noticias</a></li> 
+								<li><a href="about.php">Inversionistas</a></li>
 							</ul>
 						</li><!-- fin: dropdown --> 
 						<li><a href="services.php">Servicios</a></li>
-							<li><a href="portfolio.php">Portfolio</a></li>
-							<li><a href="pricing.php">Pricing</a></li>
+							<li><a href="portfolio.php">Portafolio</a></li>
+							<li><a href="pricing.php">Precios</a></li>
 							<li><a href="contact.php">Contactatenos</a></li>
 					</ul><!-- fin: nav navbar-nav -->
 				</div><!-- fin: navbar-collapse collapse -->
