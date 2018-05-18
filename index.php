@@ -20,6 +20,15 @@
 						<p> El éxito depende del trabajo</p> 
 					</div>
 				</li>
+				<!-- desde aqui -->
+				<li>
+					<img src="img/slides/1.jpg" alt="" />
+					<div class="flex-caption">
+						<h3>Innovación</h3> 
+						<p> En costante aprendimiento de nuevas tecnologias</p> 
+					</div>
+				</li>
+				<!-- hasta aqui -->
 			</ul><!-- fin: slides -->
 		</div><!-- fin: main-slider -->
 	<!-- end slider -->

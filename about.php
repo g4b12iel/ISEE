@@ -155,7 +155,7 @@
 							<!-- Team Member -->
 							<div class="team-member">
 								<!-- Image -->
-								<img class="img-responsive" src="img/team1.jpg" alt="">
+								<img class="img-responsive" src="img/team/1.jpg" alt="">
 								<!-- Name -->
 								<h4>Johne Doe</h4>
 								<span class="deg">Diseñadora</span> 
@@ -165,7 +165,7 @@
 							<!-- Team Member -->
 							<div class="team-member">
 								<!-- Image -->
-								<img class="img-responsive" src="img/team2.jpg" alt="">
+								<img class="img-responsive" src="img/team/2.jpg" alt="">
 								<!-- Name -->
 								<h4>Jennifer</h4>
 								<span class="deg">Programador</span> 
@@ -175,7 +175,7 @@
 							<!-- Team Member -->
 							<div class="team-member">
 								<!-- Image -->
-								<img class="img-responsive" src="img/team3.jpg" alt="">
+								<img class="img-responsive" src="img/team/3.jpg" alt="">
 								<!-- Name -->
 								<h4>Christean</h4>
 								<span class="deg">CEO</span> 
@@ -185,7 +185,7 @@
 							<!-- Team Member -->
 							<div class="team-member">
 								<!-- Image -->
-								<img class="img-responsive" src="img/team4.jpg" alt="">
+								<img class="img-responsive" src="img/team/4.jpg" alt="">
 								<!-- Name -->
 								<h4>Kerinele rase</h4>
 								<span class="deg">Gerente</span> 
