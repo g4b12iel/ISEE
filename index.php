@@ -22,10 +22,10 @@
 				</li>
 				<!-- desde aqui -->
 				<li>
-					<img src="img/slides/1.jpg" alt="" />
+					<img src="img/slides/3.jpg" alt="" />
 					<div class="flex-caption">
 						<h3>Innovación</h3> 
-						<p> En costante aprendimiento de nuevas tecnologias</p> 
+						<p> En costante aprendisaje acerca de nuevas tecnologias</p> 
 					</div>
 				</li>
 				<!-- hasta aqui -->
