@@ -241,4 +241,4 @@
 </div>
 <?php
 	include("components/javascript_footer.php");
-?>
+?> 

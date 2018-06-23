@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ISE & E</title>
+<title>ISE&E S.R.L.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -39,7 +39,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="logo"/></a>
+					<a class="navbar-brand" href="index.php"><img src="img/iseye.png" alt="logo"/></a>
 				</div><!-- fin: navbar-header -->
 				<div class="navbar-collapse collapse ">
 					<ul class="nav navbar-nav">
