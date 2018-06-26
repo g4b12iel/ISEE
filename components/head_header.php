@@ -48,15 +48,26 @@
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Quienes somos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="about.php">ISE&E S.R.L.</a></li>
-								<li><a href="about.php">Nuestro equipo</a></li>
-								<li><a href="about.php">Noticias</a></li> 
-								<li><a href="about.php">Inversionistas</a></li>
+								<li><a href="about.php#why">¿Por qué elegirnos?</a></li>
 							</ul>
 						</li><!-- fin: dropdown --> 
-						<li><a href="services.php">Servicios</a></li>
-							<li><a href="portfolio.php">Portafolio</a></li>
-							<li><a href="pricing.php">Precios</a></li>
-							<li><a href="contact.php">Contactatenos</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="services.php?service=<?php echo $service=1; ?>">Integral en Computación</a></li>
+								<li><a href="services.php?service=<?php echo $service=2; ?>">Seguridad en redes</a></li>
+								<li><a href="services.php?service=<?php echo $service=3; ?>">Mantenimientos</a></li>
+								<li><a href="services.php?service=<?php echo $service=4; ?>">Telecomunicaciones</a></li>
+								<li><a href="services.php?service=<?php echo $service=5; ?>">Centro autorizado EPSON</a></li>
+								<li><a href="services.php?service=<?php echo $service=6; ?>">Capacitación a clientes</a></li>
+								<li><a href="services.php?service=<?php echo $service=7; ?>">Paginas web</a></li>
+							</ul>
+						</li><!-- fin: dropdown --> 
+						<!-- <li><a href="services.php">Servicios</a> -->
+						</li>
+						<li><a href="portfolio.php">Portafolio</a></li>
+						<li><a href="pricing.php">Precios</a></li>
+						<li><a href="contact.php">Contactatenos</a></li>
 					</ul><!-- fin: nav navbar-nav -->
 				</div><!-- fin: navbar-collapse collapse -->
 				</div>

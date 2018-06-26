@@ -75,6 +75,7 @@
 			</div><!-- fin: container -->
 		</section>
 		<div class="container">
+			<a name="why"></a>
 			<div class="about">
 				<div class="row">
 
@@ -92,7 +93,7 @@
 
 					<div class="col-md-4">
 						<div class="block-heading-two">
-							<h3><span>Nuestros servicios</span></h3>
+							<h3><span>Nuestros servicios mas solicitados</span></h3>
 						</div>		
 						<!-- Accordion starts -->
 						<div class="panel-group" id="accordion-alt3">
