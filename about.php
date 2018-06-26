@@ -1,8 +1,6 @@
 <?php
 	include("components/head_header.php");
 	//para el inicio
-	$sizeOfInit = 5;
-	$init[] = $sizeOfInit;
 	$init[0] = 'Es una empresa formada integramente por profesionales y capitales bolivianos, dedicada a dar servicios, brindando a sus clientes soluciones tecnólogicas eficientes y de calidad.';
 	$init[1] = 'Solidamente establecida como empresa de servicios: amplió su área de actividades a la provisión de equipos, enfocando soluciones completas.';
 	$init[2] = 'Contamos con presencia en las ciudades de: Cochabamba, La Paz, Santa Cruz y Oruro.';
@@ -10,7 +8,6 @@
 	$init[4] = '<strong>Visión</strong><br>Ser la empresa boliviana integradora de mayor importancia en las áreas tecnológicas de nuestra competencia';
 	
 	//para porque elegirnos
-	$sizeOfWhy = 5;
 	$why[0] = 'Tenemos <strong>15 años</strong> de existencia';
 	$why[1] = 'Contamos con un <strong>equipo profesional técnico</strong> de más de 40 a nivel nacional.';
 	$why[2] = 'Una empresa dedica a la <strong>creatividad, inovación y espiritu de servicio</strong>.';
@@ -18,8 +15,6 @@
 	$why[4] = 'Gracias a ese esfuerzo conjunto <strong>ISE&E</strong> a obtenido un lugar de privilegio en el escenario de la tecnología de información.'; 
 
 	//para servicios
-	$sizeOfServices = 7;
-	$servicesTitle[] = $sizeOfServices;
 	$servicesTitle[0] = 'Servicio por contrato y/o llamada';
 	$servicesTitle[1] = 'Servicio técnico 24x7';
 	$servicesTitle[2] = 'Asesoramiento informático';
@@ -28,7 +23,6 @@
 	$servicesTitle[5] = 'Servicio de redes';
 	$servicesTitle[6] = 'Servicio de plataformas CAS EPSON';
 
-	$servicesContent[] = $sizeOfServices;
 	$servicesContent[0] = 'descripcion 1 aqui';
 	$servicesContent[1] = 'descripcion 2 aqui';
 	$servicesContent[2] = 'descripcion 3 aqui';
@@ -38,30 +32,16 @@
 	$servicesContent[6] = 'descripcion 7 aqui';
 
 	//para experiencia
-	$sizeOfExperience = 4;
-	$experienceTitle[] = $sizeOfExperience;
 	$experienceTitle[0] = 'Desarrollo de Software';
 	$experienceTitle[1] = 'Servicio de hosting';
 	$experienceTitle[2] = 'Experiencia de Usuario';
 	$experienceTitle[3] = 'Desarrollo';
-	$experiencePercentage[] = $sizeOfExperience;
+
 	$experiencePercentage[0] = 40;
 	$experiencePercentage[1] = 60;
 	$experiencePercentage[2] = 80;
 	$experiencePercentage[3] = 30;
 
-	//para nuestro equipo
-	$sizeOfTeam = 4;
-	$teamName[] = $sizeOfTeam;
-	$teamName[0] = 'Jennifer';
-	$teamName[1] = 'Johne Doe';
-	$teamName[2] = 'Christean';
-	$teamName[3] = 'Kerinele rase';
-	$teamCharge[] = $sizeOfTeam;
-	$teamCharge[0] = 'Diseñadora';
-	$teamCharge[1] = 'Programador';
-	$teamCharge[2] = 'CEO';
-	$teamCharge[3] = 'Gerente';
 ?>
 <!-- end header -->
 	<section id="inner-headline">
@@ -82,7 +62,7 @@
 						<div class="about-text">
 							<h3>ISE&E S.R.L.</h3>
 							<?php
-								for ($i = 0; $i<$sizeOfInit; $i++) {
+								for ($i = 0; $i<sizeOf($init); $i++) {
 									echo'<p>'.$init[$i].'</p>';
 								}
 							?>
@@ -104,7 +84,7 @@
 							<h3><span>¿Por qué elegirnos?</span></h3>
 						</div>
 						<?php
-							for ($i=0; $i<$sizeOfWhy; $i++) {
+							for ($i=0; $i<sizeOf($why); $i++) {
 								echo '<p>'.$why[$i].'</p>';
 							}
 						?>
@@ -118,7 +98,7 @@
 						<div class="panel-group" id="accordion-alt3">
 							<!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
 							<?php
-								for ($i=0; $i<$sizeOfServices; $i++) {
+								for ($i=0; $i<sizeOf($servicesTitle); $i++) {
 									echo '<div class="panel"><!-- Panel heading -->
 									<div class="panel-heading">
 									<h4 class="panel-title">
@@ -144,7 +124,7 @@
 							<h3><span>Nuestra Experiencia</span></h3>
 						</div>	
 						<?php
-							for ($i=0; $i<$sizeOfExperience; $i++) {
+							for ($i=0; $i<sizeOf($experienceTitle); $i++) {
 								echo '<h6>'.$experienceTitle[$i].'</h6>
 								<div class="progress pb-sm"><!-- White color (progress-bar-white) -->
 									<div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="'.$experiencePercentage[$i].'" aria-valuemin="0" aria-valuemax="100" style="width: '.$experiencePercentage[$i].'%">
@@ -156,35 +136,10 @@
 					</div><!-- fin: col-md-4 -->
 				</div>
 				<br>
-				<!-- Our Team starts -->
-				<!-- Heading -->
-				<div class="block-heading-six">
-					<h4 class="bg-color">Nuestro Equipo</h4>
-				</div>
-				<br>
-				<!-- Our team starts -->		
-				<div class="team-six">
-					<div class="row">
-					<?php
-						$count =1;
-						for ($i=0; $i<$sizeOfTeam; $i++) {
-							echo 
-							'<div class="col-md-3 col-sm-6">
-							<!-- Team Member -->
-							<div class="team-member">
-								<!-- Image -->
-								<img class="img-responsive" src="img/team/'.$count.'.jpg" alt="">
-								<!-- Name -->
-								<h4>'.$teamName[$i].'</h4>
-								<span class="deg">'.$teamCharge[$i].'</span> 
-							</div>
-							</div>';
-							$count++;
-						}
-					?>
-					</div>
-				</div><!-- fin: team-six -->
-				<!-- Our team ends -->
+				<!--inicio de team-->
+				<!--?php
+					include('components/trashes/team.php');
+				?-->
 			</div>
 		</div>
 	</section><!-- content -->
