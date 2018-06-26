@@ -55,24 +55,25 @@
 	</section>
 
 	<section id="content">
-		<section class="section-padding">
-			<div class="container">
-				<div class="row showcase-section">
-					<div class="col-md-6">
-						<div class="about-text">
-							<h3>ISE&E S.R.L.</h3>
-							<?php
-								for ($i = 0; $i<sizeOf($init); $i++) {
-									echo'<p>'.$init[$i].'</p>';
-								}
-							?>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="img/presentacion.jpg" alt="showcase image">
-					</div>
+		<!-- as -->
+		<div class="container content">	
+		<div class="row service-v1 margin-bottom-40">
+            <div class="col-md-6 md-margin-bottom-40"> 
+                <h3>ISE&E S.R.L.</h3>
+								<div class="about-text">
+									<?php
+										for ($i = 0; $i<sizeOf($init); $i++) {
+											echo'<p>'.$init[$i].'</p>';
+										}
+									?>
+								</div>       
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/quienes.jpg" alt="">                  
+            </div>
+        </div>
 				</div>
-			</div><!-- fin: container -->
+  	<!-- End  -->			
 		</section>
 		<div class="container">
 			<a name="why"></a>

@@ -63,9 +63,8 @@
 								<li><a href="services.php?service=<?php echo $service=7; ?>">Paginas web</a></li>
 							</ul>
 						</li><!-- fin: dropdown --> 
-						<!-- <li><a href="services.php">Servicios</a> -->
-						</li>
-						<li><a href="portfolio.php">Portafolio</a></li>
+						<!-- <li><a href="services.php">Servicios</a></li> -->	
+						<!-- <li><a href="portfolio.php">Portafolio</a></li> -->
 						<li><a href="pricing.php">Precios</a></li>
 						<li><a href="contact.php">Contactatenos</a></li>
 					</ul><!-- fin: nav navbar-nav -->
