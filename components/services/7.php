@@ -2,6 +2,8 @@
   //esto se puede immplementar con bases de datos luego
   $filterImage= [5, 4, 1, 2, 3, 3, 4, 5, 5, 5, 1, 4, 3, 4, 5, 3, 4, 3, 1, 3, 1, 4, 3, 4, 5, 2, 5, 3, 4, 2, 2, 3, 1, 2, 4, 3, 5, 2, 3, 4, 2, 4, 3, 5, 2, 2, 2, 1, 5, 3, 3, 1, 1, 1, 5, 1, 2, 4,1];
 
+  $files = glob('img/plantilla/*.*');
+
 ?>
 
 <section id="content">
@@ -32,19 +34,20 @@
             <div class="row">
                 <div id="isotope-gallery-container">
                   <?php
-                    for ($i=1; $i<= 58; $i++) {
+                    $count=1;
+                    for ($i=0; $i< count($files); $i++) {
                       echo 
                      '<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper filter'.$filterImage[$i].'">
                       <div class="gallery-item">
                           <div class="gallery-thumb">
-                              <img src="img/plantilla/'.$i.'.jpg" class="img-responsive" alt="1st gallery Thumb">
+                              <img src="'.$files[$i].'" class="img-responsive" alt="1st gallery Thumb">
                               <div class="image-overlay"></div>
-                              <a href="img/plantilla/'.$i.'.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                              <a href="'.$files[$i].'" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                               <a  class="gallery-link"><i class="fa fa-link"></i></a>
                           </div>
                           <div class="gallery-details">
                             <div class="editContent">
-                                <h5>'.$i.' gallery Item</h5>
+                                <h5>'.$count.' gallery Item</h5>
                             </div>
                             <div class="editContent">
                                 <p>Descripción aqui.</p>
@@ -52,6 +55,7 @@
                           </div>
                       </div>
                       </div>'; 
+                      $count++;
                     }
                      
                   ?>
