@@ -18,6 +18,32 @@
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 </head>
 <body>
+<!-- init modal -->
+<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Ingresar al sistema</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-signin" role="form">
+          <input class="form-control" placeholder="Usuario" required="" autofocus="" type="user">
+          <input class="form-control" placeholder="Contraseña" required="" type="password">
+          <label class="checkbox">
+            <input value="remember-me" type="checkbox"> Recordar contraseña
+          </label>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+        </form>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ingresar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- fin modal -->
 <div id="wrapper" class="home-page">
 	<div class="topbar">
 		<div class="container">
@@ -43,7 +69,7 @@
 				</div><!-- fin: navbar-header -->
 				<div class="navbar-collapse collapse ">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.php">Iinicio</a></li> 
+						<li class="active"><a href="index.php">Inicio</a></li> 
 						<li class="dropdown">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Quienes somos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -54,19 +80,20 @@
 						<li class="dropdown">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="services.php?service=<?php echo $service=1; ?>">Integral en Computación</a></li>
-								<li><a href="services.php?service=<?php echo $service=2; ?>">Seguridad en redes</a></li>
-								<li><a href="services.php?service=<?php echo $service=3; ?>">Mantenimientos</a></li>
-								<li><a href="services.php?service=<?php echo $service=4; ?>">Telecomunicaciones</a></li>
-								<li><a href="services.php?service=<?php echo $service=5; ?>">Centro autorizado EPSON</a></li>
-								<li><a href="services.php?service=<?php echo $service=6; ?>">Capacitación a clientes</a></li>
-								<li><a href="services.php?service=<?php echo $service=7; ?>">Paginas web</a></li>
+								<li><a href="services.php?service=1">Integral en Computación</a></li>
+								<li><a href="services.php?service=2">Seguridad en redes</a></li>
+								<li><a href="services.php?service=3">Mantenimientos</a></li>
+								<li><a href="services.php?service=4">Telecomunicaciones</a></li>
+								<li><a href="services.php?service=5">Centro autorizado EPSON</a></li>
+								<li><a href="services.php?service=6">Capacitación a clientes</a></li>
+								<li><a href="services.php?service=7">Paginas web</a></li>
 							</ul>
 						</li><!-- fin: dropdown --> 
 						<!-- <li><a href="services.php">Servicios</a></li> -->	
 						<!-- <li><a href="portfolio.php">Portafolio</a></li> -->
 						<li><a href="pricing.php">Precios</a></li>
 						<li><a href="contact.php">Contactatenos</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#smallModal">Ingresar</a></li>
 					</ul><!-- fin: nav navbar-nav -->
 				</div><!-- fin: navbar-collapse collapse -->
 				</div>

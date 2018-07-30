@@ -1,7 +1,7 @@
 Credits :
 --------- 
-=> Developed by ________
-=> Design & developed: "WebThemez"  http://webthemez.com 
+=> Developed by Boostsoft S.R.L.
+=> Theme: "WebThemez"  http://webthemez.com 
 => Bootstrap : http://getbootstrap.com/
 => Fontawesome : https://fortawesome.github.io/Font-Awesome/
 => Fonts : https://www.google.com/fonts
