@@ -66,30 +66,25 @@ input, button, select, textarea {
 	padding:0;
 }
 ul.withArrow{
-	
+	/* color:#ffffff; */
 }
 ul.withArrow li{
-	
+	color:#000000;
+	font-weight: lighter;
 }
-ul.withArrow li span{
-	
-margin-right: 10px;
-	
-font-weight: 700;
-	
-color: #29448e;
-	
-border: 1px solid;
-	
-padding: 4px 8px;
-	
-font-size: 11px;
-	
-border-radius: 50%;
-	
-height: 20px;
-	
-width: 20px;
+ul.withArrow li.gray{
+	color:#bcc0c0;	
+}
+ul.withArrow li span{	
+	margin-right: 10px;	
+	font-weight: 700;	
+	color: #0fcbe4;	
+	border: 1px solid;	
+	padding: 4px 8px;	
+	font-size: 11px;	
+	border-radius: 50%;	
+	height: 20px;	
+	width: 20px;
 }
 .widget {
     color: rgba(255, 255, 255, 0.77);
@@ -761,12 +756,12 @@ form#commentform textarea {
 
 .about-text .btn {
 	margin-top: 20px;
-	//font-size: 15px;
-	//text-align: justify;
+	/*font-size: 15px;
+	text-align: justify;*/
 }
 
-.about-image img {
-}
+/* .about-image img {
+} */
 
 .about-text ul {
 	margin-top: 30px;
@@ -775,7 +770,7 @@ form#commentform textarea {
 
 .about-text li {
 	margin-bottom: 10px;
-	//
+	color:#ffffff;
 	font-weight: bold;
 	list-style: none;
 }
@@ -1499,7 +1494,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+ /*============================= */
 
 .clear-marginbot{
 	margin-bottom:0;

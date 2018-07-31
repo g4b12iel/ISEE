@@ -27,7 +27,7 @@
         <h4 class="modal-title" id="myModalLabel">Ingresar al sistema</h4>
       </div>
       <div class="modal-body">
-        <form class="form-signin" role="form">
+        <form class="form-signin" role="form" action="login.php" method="post">
           <input class="form-control" placeholder="Usuario" required="" autofocus="" type="user">
           <input class="form-control" placeholder="Contraseña" required="" type="password">
           <label class="checkbox">
